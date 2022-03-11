@@ -312,8 +312,8 @@ function buyNow() {
         displayBalance()
         
         // Removes the selected laptop from the menu.
-        laptopsMenu.remove(laptopsMenu.selectedIndex)
         laptops.splice(laptopsMenu.selectedIndex, 1)
+        laptopsMenu.remove(laptopsMenu.selectedIndex)
         if (laptops.length === 0) {
             soldOut()
         } else {
