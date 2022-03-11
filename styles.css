@@ -1,0 +1,145 @@
+
+
+body {
+    background-color: #F9F7F7;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #112D4E;
+}
+
+header {
+    background-color: #112D4E;
+    color: white;
+    margin-bottom: 30px;
+    padding: 10px;
+    padding-left: 50px;
+}
+
+main {
+    column-gap: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 30px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 15px;
+}
+
+/* #region Classes */
+
+.display-value {
+    float: right;
+}
+
+.laptop-display {
+    grid-column: 1 / 4;
+    position: relative;
+}
+
+.menu {
+    background-color: #DBE2EF;
+    border-radius: 25px;
+    padding: 15px;
+    position: relative;
+}
+
+.menu-button {
+    bottom: 20px;
+    color: white;
+    position: absolute;
+}
+
+/* #endregion */
+
+
+/* #region IDs */
+
+#bank {
+    background-color: #184D47;
+    left: 5%;
+    width: 44%;
+}
+
+#buy {
+    background-color: #96BB7C;
+    color: black;
+    width: 100%;
+}
+
+#harold {
+    display: inline;
+    max-height: 20%;
+    max-width: 20%;
+    vertical-align: middle;
+}
+
+#img-laptop-image {
+    display: inline;
+    max-width: 100%;
+    max-height: 100%;
+    vertical-align: middle;
+}
+
+#laptop-image-container {
+    float: left;
+    left: 5%;
+    margin: 2%;
+    vertical-align: middle;
+    width: 29%;
+}
+
+#laptop-information {
+    display: flex;
+    align-items: center;
+    float: left;
+    height: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+    vertical-align: middle;
+    width: 46%;
+}
+
+#loan {
+    background-color: #3F72AF;
+    left: 5%;
+    width: 90%;
+}
+
+#p-loan-text {
+    visibility: hidden;
+}
+
+#price-area {
+    align-items: center;
+    display: flex;
+    float: left;
+    height: 100%;
+    right: 5%;
+    text-align: center;
+    width: 13%;
+}
+
+#repay-loan {
+    background-color: #C64756;
+    bottom: 80px;
+    left: 5%;
+    visibility: hidden;
+    width: 90%;
+}
+
+#title {
+    color:white;
+    display: inline;
+    padding: 50px;
+}
+
+#work {
+    background-color: #184D47;
+    right: 5%;
+    width: 44%;
+}
+
+/* #endregion */

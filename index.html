@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Komputer Store</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <header>
+        <img id="harold">
+        <h1 id="title">Komputer Store</h1>
+    </header>
+    <main>
+        <!-- #region Bank -->
+        
+        <div class="menu">
+            <h1>Joe Banker</h1>
+            <p>Balance <span id="span-balance-display" class="display-value"></span></p>
+            <p id="p-loan-text">Outstanding loan <span id="span-loan-display" class="display-value"></span></p>
+            <button onclick="getLoan()" id="loan" class="menu-button">Get a loan</button>
+        </div>
+        
+        <!-- #endregion -->
+
+        <!-- #region Work -->
+
+        <div class="menu">
+            <h1>Work</h1>
+            <p>Pay <span id="span-pay-display" class="display-value"></span></p>
+            <button onclick="bank()" id="bank" class="menu-button">Bank</button>
+            <button onclick="work()" id="work" class="menu-button">Work</button>
+            <button onclick="repayLoan()" id="repay-loan" class="menu-button">Repay loan</button>
+        </div>
+
+        <!-- #endregion -->
+
+        <!-- #region Laptops -->
+
+        <div class="menu">
+            <h1>Laptops</h1>
+            <select name="laptops" id="select-laptops-menu"></select>
+            <h2>Features:</h2>
+            <p id="p-laptop-features">
+            </p>
+        </div>
+
+        <!-- #endregion -->
+
+        <!-- #region Laptop display -->
+
+        <div class="menu laptop-display">
+            <div id="laptop-image-container">
+                <img id="img-laptop-image">
+            </div>
+            <div id="laptop-information">
+                <div>
+                    <h1 id="h1-laptop-title"></h1>
+                    <p id="p-laptop-description"></p>
+                </div>
+            </div>
+            <div id="price-area">
+                <div>
+                    <h2 id="h2-laptop-price"></h2>
+                    <button onclick="buyNow()" id="buy"><strong>BUY NOW</strong></button>
+                </div>
+            </div>
+        </div>
+
+        <!-- #endregion -->
+    </main>
+</body>
+</html>
