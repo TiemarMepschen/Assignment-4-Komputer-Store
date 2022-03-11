@@ -21,7 +21,9 @@ Clone the repository locally
 ```
 git clone https://gitlab.com/tiemarmepschen/assignment-4-komputer-store.git
 ```
-Open the index.html file in your browser of choice.
+Open the index.html file in your browser of choice
+
+Or visit https://tiemarmepschen.github.io/Assignment-4-Komputer-Store/
 
 ## Maintainer
 Tiemar Mepschen
